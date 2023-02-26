@@ -1,4 +1,5 @@
 <script setup>
+const config = useRuntimeConfig();
 const client = useSupabaseAuthClient();
 const state = reactive({
   loading: false,
