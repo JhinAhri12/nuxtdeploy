@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.3.1",
@@ -17,6 +17,7 @@
     "@prisma/client": "^4.10.1",
     "dotenv": "^16.0.3",
     "netlify": "^13.1.2",
-    "netlify-cli": "^13.0.0"
+    "netlify-cli": "^13.0.0",
+    "postinstall": "^0.8.0"
   }
 }
