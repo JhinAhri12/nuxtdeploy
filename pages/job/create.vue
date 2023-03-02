@@ -3,6 +3,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+    middleware: "admin",
+    });
  const title = 'Create'
  const action = 'POST'
 </script>
